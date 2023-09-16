@@ -100,6 +100,19 @@ h3 {
 
 /* Main start */
 /* Section 1 */
+.main-div{
+  background-image:url(../images/main-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #2E2F42;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+	),
+	url(../images/main-background.jpg);
+
+}
 .section-decoration {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -158,6 +171,18 @@ h3 {
 }
 .ways-list {
   width: calc((100% - 72px) / 4);
+}
+.way-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+  background: var(--CLOUD, #F4F4FD);
 }
 
 .sub-header {
