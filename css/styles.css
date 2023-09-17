@@ -269,22 +269,25 @@ color:  #404BBF;
   justify-content: space-around;
   margin-top: 8px;
 }
-.socils-icon{
-display: flex; 
-width: 40px;
-height: 40px;
-border-radius: 50%;
-border: 1px solid #4D5AE5;
-background:#4D5AE5;
-align-items: center;
-justify-content: center;
-fill:#F4F4FD;
-}
-.socils-icon:hover{
-  background-color: #31D0AA;
-  border: 1px solid #31D0AA;
-}
 
+.socils-icon{
+  display: flex; 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #4D5AE5;
+  background:#4D5AE5;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  .socils-icon:hover{
+    background-color: #31D0AA;
+    border: 1px solid #31D0AA;
+  }
+  .color-svg{
+    fill:#F4F4FD;
+  }
 /* Section 4 */
 .section-portfolio{
   padding: 120px 0 120px 0;
@@ -417,7 +420,6 @@ display: inline-block;
   gap:16px;
   align-items: center;
   max-width: 264px; 
-  
 }
 .footer-socils-icon{
 display: flex; 
@@ -428,13 +430,15 @@ border: 1px solid #4D5AE5;
 background:#4D5AE5;
 align-items: center;
 justify-content: center;
-fill:#F4F4FD; 
+
 }
 .footer-socils-icon:hover{
   background-color: #31D0AA;
   border: 1px solid #31D0AA;
 }
-
+.footer-color-svg{
+  fill:#F4F4FD; 
+}
 
 
 
