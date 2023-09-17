@@ -129,6 +129,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     rgba(46, 47, 66, 0.7)
 	),
 	url(../images/main-background.jpg);
+  max-width: 1440px;
 
 }
 .section-decoration {
