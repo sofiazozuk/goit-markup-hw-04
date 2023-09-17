@@ -290,9 +290,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background:#4D5AE5;
   align-items: center;
   justify-content: center;
-  
   }
-  .socils-icon:hover{
+  .socils-icon:hover,
+  .socils-icon:focus{  
     background-color: #404bbf;
     border: 1px solid #31D0AA;
   }
