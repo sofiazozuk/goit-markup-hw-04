@@ -342,6 +342,11 @@ fill:#F4F4FD;
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.footer-inner{
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -369,6 +374,9 @@ fill:#F4F4FD;
 }
 /* Socilals */
 
+.footer-icons-div{
+  
+}
 .footer-icon-decr{
 display: flex;
 font-family: Roboto;
@@ -387,8 +395,8 @@ margin-left: 540px;
   display: flex;
   gap:16px;
   align-items: center;
-   margin-left: 540px;
-   max-width: 264px; 
+  margin-left: 540px;
+  max-width: 264px; 
   
 }
 .footer-socils-icon{
